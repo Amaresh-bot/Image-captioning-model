@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Large data files (store in Google Drive, not GitHub)
+*.pkl
+*.h5
+*.csv
+*.txt
+*.jpg
+*.jpeg
+*.png
+*.zip
+
+# Exceptions — keep README assets if any
+!assets/*.png
+!assets/*.jpg
+
+# Environments
+.env
+.venv
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
